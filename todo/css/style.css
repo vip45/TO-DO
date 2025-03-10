@@ -1,0 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.custom-navbar {
+  background-color: #f9ed69;
+}
+
+.row-bg-1 {
+  background-color: #f08a5d;
+}
+
+.row-bg-1 > div:nth-child(even) {
+  background-color: #b83b5e;
+}
+
+.row-bg-1 > div:nth-child(odd) {
+  background-color: #6a2c70;
+}
